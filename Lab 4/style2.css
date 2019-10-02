@@ -1,0 +1,43 @@
+div{
+  margin:5pt;
+  border: dashed purple 2px;
+}
+.blackText{
+  font-size: 14px;
+  margin-top: 150pt;
+  text-align: center;
+}
+
+.greenText{
+  margin: 0pt;
+  color: green;
+  font-size: 9px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.orangeText{
+  font-size: 33px;
+  color: orange;
+  vertical-align: bottom;
+}
+
+.redText{
+  font-size: 30px;
+  color: red;
+  vertical-align: super;
+  padding-bottom: : 30pt;
+  padding-top: 0pt;
+}
+
+.purpleText{
+  color: purple;
+  text-align: right;
+  font-size: 7px;
+}
+
+.yellowText{
+  text-transform: capitalize;
+  color: yellow;
+
+}

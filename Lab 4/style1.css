@@ -1,0 +1,20 @@
+body{background-color: blue;}
+
+div{
+  border: solid black 5px;
+  margin: 100pt;
+}
+
+p{
+  font-size: 12px;
+  color: red;
+  border: dashed green 2px;
+  margin: 10pt;
+  padding: 5pt;
+}
+
+img{
+  border: dashed yellow 2px;
+  margin: 12pt,5pt,0pt,0pt;
+  padding: 15pt;
+}

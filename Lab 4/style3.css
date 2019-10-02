@@ -1,0 +1,24 @@
+body{
+  background-color: white;
+}
+.green{
+  margin: 10pt;
+  background-color: #159422;
+}
+.boxed{
+  border: dashed black 4px;
+  margin-left: 20pt;
+  margin-right: 20pt;
+  padding: 10pt;
+}
+
+.redText{
+  color: red;
+}
+.greenText{
+  color: green;
+}
+
+.purpleText{
+  color: purple;
+}
