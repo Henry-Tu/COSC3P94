@@ -1,47 +1,58 @@
 body{
 	color:black;
 	background-color:black;
+	font-size: 15pt;
+	font-weight: bold;
 }
 
 
 #wrapper{
-	width:750px;
-  height: 780px;
-	margin:0 auto;
+	width:1300px;
+  height: 790px;
+	margin:-10px auto;
 	background-color:green;
   position: relative;
   up: 10px;
+	padding: auto 400px;
+
 }
 
 #header{
-	height:50px;
+	height:80px;
 	text-align:center;
   background-color: red;
+	margin: auto 240px;
+	font-size: 20pt;
 
 }
 
 #leftbody{
 	float:left;
-	width:190px;
-	height: 100px;
+	width:245px;
+	height: 55px;
 	background-color:pink;
-	padding:5px;
+	padding: 15px 0px;
+	margin-left: 240px;
 
 }
 #rightbody{
 	float:right;
-	width:540px;
-	height:100px;
+	width:575px;
+	height:55px;
 	background:orange;
-	padding:5px;
+	padding: 15px 0px;
+	margin-right: 240px;
 }
 #middlebody{
+	clear: both;
   background-color: blue;
-  height: 500px;
+  height: 575px;
+	margin: auto 240px;
 }
 #bottom{
-	text-align:center;
+	text-align:left;
 	height:50px;
 	clear:both;
   background-color: yellow;
+	margin: auto 240px;
 }
