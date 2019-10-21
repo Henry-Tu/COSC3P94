@@ -1,0 +1,51 @@
+#footer{
+  position: fixed;
+    bottom: 0;
+z-index: 10;
+
+}
+#main{
+    background-color: orange;
+    position: relative;
+    margin:20px auto;
+    padding-top: : 10px;
+    padding-left: 10px;
+    border: black solid 2px;
+}
+
+h1, h2{
+  color: green;
+}
+
+.blue p{
+  color: blue;
+}
+.big{
+  font-size: 25pt;
+}
+.upper{
+  text-transform:uppercase;
+}
+
+.arial{
+  font-family: arial;
+}
+
+h2{
+  text-decoration: underline;
+}
+#relative{
+  width: 100px;
+  background-color: red;
+  position:relative;
+  top: -50px;
+  left: 1000px;
+}
+#absolute{
+  width: 100px;
+  background-color: blue;
+  position:absolute;
+  right: 100px;
+  bottom: 10px;
+  color: white;
+}
