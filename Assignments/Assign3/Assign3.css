@@ -1,0 +1,76 @@
+body{
+	color:#0f4d92;
+	background-color:white;
+  font-family: "yale";
+}
+
+
+#wrapper{
+	//width:750px;
+	margin:0 auto;
+	background-color:white;
+}
+
+#header{
+	height:50px;
+	text-align:center;
+  font-size: 30px;
+}
+
+#leftbody{
+	float:left;
+
+
+}
+#middlebody{
+  float:left;
+}
+#rightbody{
+	float:left;
+}
+
+#bottom{
+	text-align:center;
+	height:50px;
+	clear:both;
+  background-color: #0f4d92;
+  color: white;
+
+}
+.header{
+  font-size: 25pt;
+  //background-color: #0f4d92;
+  border: solid 5px white;
+  clear: left;
+
+}
+
+.nav{
+  color: #0f4d92;
+
+;
+  margin: 10px;
+  display: inline;
+}
+.title:hover, .nav:hover{
+  color: #0f3063;
+  transition:1000ms;
+  text-decoration: underline;
+}
+
+.box{
+  width:400px;
+	height:500px;
+	background-color:#0f4d92;
+	padding:5px;
+  margin:25px 50px;
+  border: solid 5px #968C83;
+  color: white;
+  font-size: 16px;
+}
+
+.image{
+  width: 300px;
+  margin: 5px 50px;
+  border: solid 2px #968C83;
+}
