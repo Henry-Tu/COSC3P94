@@ -31,6 +31,10 @@ function division(){
   var sum;
   num1 = Number(document.getElementById("value1").value);
   num2 = Number(document.getElementById("value2").value);
-  quotient = num1 / num2;
+  if(num2 == 0){
+    quotient = "undefined";
+  }else{
+    quotient = num1 / num2;
+  }
   document.getElementById("output").innerHTML = quotient;
 }
