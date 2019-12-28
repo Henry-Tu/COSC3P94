@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title> The Resistance </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/boxfont-round" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/neomatrixcode" type="text/css"/>
+  </head>
+
+
+
+  <body>
+
+    <div class = "header">
+      <ul>
+        <li class = "title"> <a href = "index.html" title = "Resistance"><img src ="ResistanceLogo.png" width =50>Resistance</a> </li>
+        <li class = "nav"> <a href = "Heroes.html" title = "Heroes">  Meet the Heroes</a></li>
+        <li class = "nav"> <a href = "Join.html" title = "Join">Join</a> </li>
+        <li id = "countbox">  Days since last mission: <span id = "counter"> </span> </li>
+    </ul>
+    </div>
+
+    <script type="text/javascript" src = "DaysSince.js"> </script>
+
+    <div id ="box">
+      <h1> Join the Resistance </h1>
+  <p> Your name: <input type="text" id = "value1" name="field1" value = "Luke" /> </p>
+  <p> Planet: <input type="text" id = "value2" name="field2" value = "Naboo" /> </p>
+  <button  onclick="join()"> Join </button>
+
+  <script type="text/javascript" src="Join.js"></script>
+    </div>
+    <footer> The Resistance is not affiliated with the New Republic </footer>
+
+  </body>
+</html>
